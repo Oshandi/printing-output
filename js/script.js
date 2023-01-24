@@ -1,26 +1,39 @@
-
-//initial setup
+/* ==========
+    Task 01
+========== */    
 
 let a = 3;
 let b = 5;
 let c;
 
-let sum = a+b;
-let sub = a-b;
-let mul = a*b;
+let sum = a + b;
+let sub = a - b;
+let mul = a * b;
+let div = a / b;
+let per = a % b;
+let eq = a == b;
+let neq = a != b;
+let greater = a > b;
+let less = a < b;
+let and = !a && !c;
+let or = !a || !c;
 
-let output = 'let a = 3;\n';
-output += 'let b = 5;\n';
-output += 'let c;\n';
-output += '________\n';
-output += 'a+b=' + sum + "\n";
-output += 'a-b=' + sub + "\n";
-output += 'a*b=' + mul + "\n";
 
-alert(output);
 
-/*
-alert('a+b=' + sum + "\n");
-alert('a-b=' + sub + "\n");
-alert('a*b=' + mul + "\n");
-*/
+let outputOne = 'let a = 3;\n';
+outputOne += 'let b = 5;\n';
+outputOne += 'let c;\n';
+outputOne += '--------\n';
+outputOne += 'a + b = ' + sum + "\n";
+outputOne += 'a - b = ' + sub + "\n";
+outputOne += 'a * b = ' + mul + "\n";
+outputOne += 'a / b = ' + div + "\n";
+outputOne += 'a % b = ' + per + "\n";
+outputOne += 'a == b = ' + eq + "\n";
+outputOne += 'a != b = ' + neq + "\n";
+outputOne += 'a > b = ' + greater + "\n";
+outputOne += 'a < b = ' + less + "\n";
+outputOne += '!a && !c = ' + and + "\n";
+outputOne += '!a || !c = ' + or + "\n";
+
+alert(outputOne);
